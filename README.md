@@ -1,16 +1,13 @@
-### Hi there 👋
+Let's take a look at how to dump data of Cassandra DB . We have a example about log a ThingsBoard data from Cassandra.
 
-<!--
-**Ming-Shu/Ming-Shu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+EC2 type : t3.xlarge
 
-Here are some ideas to get you started:
+Operating System : Ubuntu 18.04 LTS
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+openjdk version : "1.8.0_292"
+
+Cassandra version :3.11.2.
+
+python version :3.6.9
+
+DB　table : ThingsBoard schema
