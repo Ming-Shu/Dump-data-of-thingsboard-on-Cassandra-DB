@@ -21,8 +21,13 @@ Take ThingsBoard data for example
 
 
 session.execute('USE thingsboard')
+
     query = "INSERT INTO ts_kv_latest_cf (entity_type, entity_id, key, long_v, ts) VALUES ('{}', {}, '{}', {}, {})".format("DEVICE", "fd9996f0-5bf1-11ec-9683-d922572fb795", "key-value", 1234,int(time.time()*1000))
+    
     try:
+    
         session.execute(query)
+        
     except Exception as e:
+    
         print(e)
